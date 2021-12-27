@@ -1,3 +1,26 @@
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-200px);
+    transform: translateX(-200px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
 .resume {
   height: 100%;
   display: flex;
@@ -29,6 +52,7 @@
   border-radius: 20%;
   background-image: url(../image/profile.jpg);
   background-size: 100% 100%;
+  animation: slide-right 0.8s cubic-bezier(0.895, 0.03, 0.685, 0.22) both;
 }
 
 .skill_text {
@@ -63,11 +87,12 @@
   flex-wrap: wrap;
 }
 .skill_logo_img div {
-  width: 40%;
+  width: 30%;
   height: 30%;
   display: flex;
   margin: 5px auto;
   border-radius: 25%;
+  animation: text-focus-in 0.8s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
 .java {
   background-image: url(../image/java.png);
@@ -91,6 +116,10 @@
 }
 .mysql {
   background-image: url(../image/mysql.png);
+  background-size: 100% 100%;
+}
+.js {
+  background-image: url(../image/js.png);
   background-size: 100% 100%;
 }
 

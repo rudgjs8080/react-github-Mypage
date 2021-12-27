@@ -9,12 +9,19 @@ function Portfolio() {
         <div className="portfolio_list">
           <a
             href="https://hello-android-41e92.firebaseapp.com/"
+            target="_blank"
+            rel="noreferrer"
             className="guestbook"
           >
             <div className="guestbook_image"></div>
             <div className="detail">방명록</div>
           </a>
-          <a href="https://github.com/wooseok0727/MEETT" className="meett">
+          <a
+            href="https://github.com/wooseok0727/MEETT"
+            target="_blank"
+            rel="noreferrer"
+            className="meett"
+          >
             <div className="meett_image"></div>
             <div className="detail">
               모임간의 일정관리
@@ -23,6 +30,8 @@ function Portfolio() {
           </a>
           <a
             href="https://github.com/rudgjs8080/Spring-MVC/tree/master/Project_Woo_02"
+            target="_blank"
+            rel="noreferrer"
             className="woo"
           >
             <div className="woo_image"></div>

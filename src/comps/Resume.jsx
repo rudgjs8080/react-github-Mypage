@@ -39,6 +39,7 @@ function Resume() {
               <div className="java"></div>
               <div className="html"></div>
               <div className="css"></div>
+              <div className="js"></div>
               <div className="spring"></div>
               <div className="springboot"></div>
               <div className="mysql"></div>
