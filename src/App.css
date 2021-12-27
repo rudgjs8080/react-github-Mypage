@@ -1,7 +1,16 @@
+@font-face {
+  font-family: "RixYeoljeongdo_Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/RixYeoljeongdo_Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "RixYeoljeongdo_Regular";
 }
 
 body {
@@ -18,7 +27,7 @@ body {
   flex: 1;
 }
 .pages {
-  height: 80vh;
+  height: 85vh;
   width: 80%;
   margin: 0 auto;
 }

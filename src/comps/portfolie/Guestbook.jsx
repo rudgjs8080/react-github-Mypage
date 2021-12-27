@@ -1,7 +1,8 @@
 import React from "react";
+import "../../css/Guestbook.css";
 
 function Guestbook() {
-  return <div>guestbook</div>;
+  return <div className="pages">guestbook</div>;
 }
 
 export default Guestbook;

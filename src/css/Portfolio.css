@@ -1,6 +1,60 @@
 .portfolio {
+  display: flex;
+  flex-direction: column;
   height: 100%;
-  border: 1px solid black;
   margin: 3px;
-  padding: 10% 0 10% 0;
+  padding: 2% 0 10% 0;
+}
+h1 {
+  margin: 1rem;
+  font-size: 300%;
+}
+.portfolio_list {
+  display: flex;
+  margin: 0 auto;
+}
+.guestbook,
+.meett,
+.woo {
+  display: flex;
+  flex-direction: column;
+  text-decoration-line: none;
+  width: 20vw;
+  margin: 2.5vw;
+  height: 50vh;
+}
+.guestbook_image {
+  width: 15vw;
+  margin: 0 auto;
+  height: 30vh;
+  background-image: url(../image/meett.png);
+  background-size: 140% 140%;
+  border-radius: 15%;
+}
+.meett_image {
+  width: 15vw;
+  margin: 0 auto;
+  height: 30vh;
+  background-image: url(../image/meett.png);
+  background-size: 140% 140%;
+  border-radius: 15%;
+}
+.woo_image {
+  width: 15vw;
+  margin: 0 auto;
+  height: 30vh;
+  background-image: url(../image/woo.jpg);
+  background-size: 100% 100%;
+  border-radius: 15%;
+}
+.detail {
+  border: 1px solid green;
+  width: 15vw;
+  margin: 1rem auto;
+  height: 15vh;
+  font-size: larger;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  line-height: 30px;
+  text-decoration: none;
 }

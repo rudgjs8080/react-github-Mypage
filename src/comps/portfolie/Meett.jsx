@@ -1,7 +1,8 @@
 import React from "react";
+import "../../css/Meett.css";
 
 function Meett() {
-  return <div>meett</div>;
+  return <div className="pages">meett</div>;
 }
 
 export default Meett;

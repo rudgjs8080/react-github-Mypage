@@ -4,12 +4,15 @@ import "../css/MainNav.css";
 
 function MainNav() {
   return (
-    <nav className="nav">
-      <NavLink to="/">HOME</NavLink>
-      <NavLink to="/resume">Resume</NavLink>
-      <NavLink to="/portfolio">Portfolio</NavLink>
-      <NavLink to="/introduce">Introduce</NavLink>
-    </nav>
+    <div className="nav_section">
+      <div className="nav_text">KEY's PORTFOLIO</div>
+      <nav className="nav">
+        <NavLink to="/">HOME</NavLink>
+        <NavLink to="/resume">Resume</NavLink>
+        <NavLink to="/portfolio">Portfolio</NavLink>
+        <NavLink to="/introduce">Contact</NavLink>
+      </nav>
+    </div>
   );
 }
 export default MainNav;

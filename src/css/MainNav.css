@@ -1,19 +1,32 @@
+.nav_section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5%;
+}
+.nav_text {
+  width: 50%;
+  text-align: center;
+  font-size: 60px;
+}
 .nav {
   display: flex;
-  height: 15vh;
-  width: 100%;
+  width: 50%;
   background-color: #444a62;
+  margin-right: 10%;
+  border-radius: 40px;
+  padding-top: 0.8%;
 }
 
 .nav a {
-  width: 200px;
-  padding: 20px;
+  width: 70px;
+  padding: 10px;
   text-decoration: none;
   color: white;
-  font-weight: 900;
+  font-weight: 600;
   display: flex;
   flex: 1;
   justify-content: center;
   align-items: flex-end;
-  font-size: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }

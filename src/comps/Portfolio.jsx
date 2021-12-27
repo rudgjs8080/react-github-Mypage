@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "../css/Portfolio.css";
 
 function Portfolio() {
@@ -8,15 +7,30 @@ function Portfolio() {
       <div className="portfolio">
         <h1>Portfolio</h1>
         <div className="portfolio_list">
-          <NavLink to="/portfolio/guestbook">
-            <div>GusetBook</div>
-          </NavLink>
-          <NavLink to="/portfolio/meett">
-            <div>Meett</div>
-          </NavLink>
-          <NavLink to="/portfolio/woo">
-            <div>Woo</div>
-          </NavLink>
+          <a
+            href="https://hello-android-41e92.firebaseapp.com/"
+            className="guestbook"
+          >
+            <div className="guestbook_image"></div>
+            <div className="detail">방명록</div>
+          </a>
+          <a href="https://github.com/wooseok0727/MEETT" className="meett">
+            <div className="meett_image"></div>
+            <div className="detail">
+              모임간의 일정관리
+              <br />웹 서비스!
+            </div>
+          </a>
+          <a
+            href="https://github.com/rudgjs8080/Spring-MVC/tree/master/Project_Woo_02"
+            className="woo"
+          >
+            <div className="woo_image"></div>
+            <div className="detail">
+              오늘의 날씨와 그에 맞는 <br />
+              간단한 옷차림을 알려주는 <br />웹 서비스!
+            </div>
+          </a>
         </div>
       </div>
     </div>
