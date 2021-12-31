@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.78bf212a.chunk.css",
-    "main.js": "/static/js/main.9ef78772.chunk.js",
-    "main.js.map": "/static/js/main.9ef78772.chunk.js.map",
+    "main.css": "/static/css/main.a544fd30.chunk.css",
+    "main.js": "/static/js/main.a3c11b55.chunk.js",
+    "main.js.map": "/static/js/main.a3c11b55.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c0958a66.js",
     "runtime-main.js.map": "/static/js/runtime-main.c0958a66.js.map",
     "static/js/2.1e20a01b.chunk.js": "/static/js/2.1e20a01b.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.de719292.chunk.js": "/static/js/3.de719292.chunk.js",
     "static/js/3.de719292.chunk.js.map": "/static/js/3.de719292.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.78bf212a.chunk.css.map": "/static/css/main.78bf212a.chunk.css.map",
+    "static/css/main.a544fd30.chunk.css.map": "/static/css/main.a544fd30.chunk.css.map",
     "static/js/2.1e20a01b.chunk.js.LICENSE.txt": "/static/js/2.1e20a01b.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/static/media/ar2.450d6778.gif",
     "static/media/Resume.css": "/static/media/springboot.55d478ae.jpg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.c0958a66.js",
     "static/js/2.1e20a01b.chunk.js",
-    "static/css/main.78bf212a.chunk.css",
-    "static/js/main.9ef78772.chunk.js"
+    "static/css/main.a544fd30.chunk.css",
+    "static/js/main.a3c11b55.chunk.js"
   ]
 }
